@@ -1,6 +1,6 @@
 # age= 20
 # if age >19:
-#     print("Your eligible to vote")56
+#     print("Your eligible to vote")
 
 
 # print("rest of the code")
@@ -16,7 +16,10 @@
 # print("Thank you for showing interest in National voter list")
 
 
-n=5
-i=1
-while i>=70:
-  print(i*n , end= " ")
+age= int(input("Enter your age:"))
+
+if age >=18:
+    print("Congratulation Your eiligible to vote-")
+else:
+     print("Your not eiligible to vote")
+    
