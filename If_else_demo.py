@@ -41,7 +41,8 @@ c= int(input("please enter 3 number:"))
 
 if a >=b and a >=c:
     print("largest number is:" ,a )
-elif b>=a and b>c:
+elif b>=a and b>=c:
   print("largest number is b:" ,b)
 else:
   print("Largest number among three is :", c) 
+  mul
