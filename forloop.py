@@ -25,3 +25,4 @@ for l in dict:
 fruit_basket=["apple","bannaa","grapes","kiwi"]
 for p in range(len(fruit_basket)):
     print(p,":",fruit_basket[p])
+    
