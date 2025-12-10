@@ -35,6 +35,3 @@ print("after removing random element using pop() method:",s1)
 s1.clear()
 print("after clearing entire set using clear() method:",s1)
 
-# difference method
-print("difference method using - operator:",s5 - s8)
-print("difference method using difference() method:",s5.difference(s8))
