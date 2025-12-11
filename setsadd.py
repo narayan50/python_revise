@@ -22,3 +22,4 @@ print("Squared Set:", squared_set)
 s5={1,2,3,4,5}
 squared_set={x**3 for x in s5}
 print("Squared Set:", squared_set)
+
