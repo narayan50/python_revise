@@ -1,0 +1,5 @@
+# data stored in tuple form means you can print any types of the data like int ,str ,float etc
+def my_func(*argp):
+    for i in argp:
+        print(i)
+my_func("lets","us","study","in","python","09", ".900")
