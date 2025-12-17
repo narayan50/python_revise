@@ -4,3 +4,4 @@ def my_fun(**kwargs):
       print(type(k))
 my_fun(one="lets",two="study",three="javascript")
 my_fun(one="lets",two="study",three="javascript",four="today",five="at 8")
+
