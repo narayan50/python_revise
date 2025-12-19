@@ -1,4 +1,5 @@
 # import module
+# module name with alias
 
 import moduletest as cal
 num1= 34
