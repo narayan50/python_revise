@@ -62,3 +62,48 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+
+
+# Example output:
+from django.shortcuts import render
+from django.core.mail import send_mail
+from django.conf import settings
+
+# create your views here.
+def send_request(request):
+    if request.method == 'POST':
+        to = request.POST.get('to')
+        subject = request.POST.get('subject')
+        print(to, subject)
+        return render(request, 'css/send.html', {'to': to, 'subject': subject})
+    else:
+        return render(request, 'css/send.html') 
+    
+
+    # email settings
+    email_host = 'smtp.gmail.com'   
+    email_port = 587
+    email_use_tls = True
+    email_host_user = 'narayan@yahoo.com'
+    email_host_password = 'Espresso@50' 
+    email_backend = 'django.core.mail.backends.smtp.EmailBackend'
+
+def send_email(request):
+    if request.method == 'POST':
+        to = request.POST.get('to')
+        subject = request.POST.get('subject')
+        message = 'This is a test email sent from Django.'
+        return render(request, 'css/sent.html', {'to': to})
+    else:
+        return render(request, 'css/send.html')
+    
+    send_mail((password=0909)
+              9090
+              while
+                subject,
+                message,
+
+                from_email=
+                settings.EMAIL_HOST_USER,
+                recipient_list=[to],
+                fail_silently=False

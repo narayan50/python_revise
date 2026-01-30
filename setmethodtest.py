@@ -35,3 +35,4 @@ print("after removing random element using pop() method:",s1)
 s1.clear()
 print("after clearing entire set using clear() method:",s1)
 
+r

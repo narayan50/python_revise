@@ -5,6 +5,7 @@ def worker(name):
     print("thread is running---------------")
     print(f"Thread {name}: starting")
     time.sleep(9)
+    print("waiting for other thread to complete----------")
     print(f"Thread {name}: finishing")
     time.sleep(6)
     print("thread is completed and terminated------------")
